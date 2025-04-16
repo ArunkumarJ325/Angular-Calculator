@@ -1,0 +1,15 @@
+<div class="calculator">
+    <h2>Simple Angular Calculator</h2>
+    <input type="number" [(ngModel)]="num1" placeholder="Enter first number" />
+    <input type="number" [(ngModel)]="num2" placeholder="Enter second number" />
+  
+    <div class="buttons">
+      <button (click)="add()">Add</button>
+      <button (click)="sub()">Subtract</button>
+      <button (click)="mul()">Multiply</button>
+      <button (click)="div()">Divide</button>
+    </div>
+  
+    <h3>Result: {{ result }}</h3>
+  </div>
+  
